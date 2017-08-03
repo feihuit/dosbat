@@ -1,0 +1,10 @@
+@echo off
+if "%1" == "" goto defautl
+
+goto end
+
+:default
+start "" ""
+goto end
+
+:end
